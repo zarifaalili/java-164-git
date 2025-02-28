@@ -38,4 +38,8 @@ public class Student {
     public int hashCode() {
         return Objects.hash(name, id);
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
